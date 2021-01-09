@@ -24,8 +24,14 @@ class Project extends Component {
 
 
                                         <CardActions border>
-                                         <center>   <Button colored>Github</Button>
+                                         <center>  
+                                         <a href="https://github.com/joydey97/myportfolio" target="_blank" rel="noopener noreferrer">
+
+                                            <Button colored>Github</Button>
+                                        </a>
+                                        <a href="http://localhost:3000/myportfolio" target="_blank" rel="noopener noreferrer">
                                             <Button colored>Live Demo</Button>
+                                        </a>
                                          </center>
                                         </CardActions>
 
